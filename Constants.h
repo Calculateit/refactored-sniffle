@@ -1,0 +1,34 @@
+#ifndef CONSTANTS_H_INCLUDED
+#define CONSTANTS_H_INCLUDED
+
+#define BACKGROUND_COLOR 48, 60, 138, 0
+
+const int WINDOW_HEIGHT = 500;
+const int WINDOW_WIDTH  = 1000;
+
+const int UP_OFFSET     = 48;
+const int DOWN_OFFSET   = 24;
+
+const int CURSOR_HEIGHT = 24;
+const int CURSOR_WIDTH  = 500;
+#define CURSOR_COLOR 130, 179, 226, 0
+
+const int PREV_DIR_BUTTON_X = 0;
+const int PREV_DIR_BUTTON_Y = 24;
+#define PREV_DIR_BUTTON_COLOR 189, 130, 136, 0
+
+const int FOLDER_LABEL_X = 10;
+const int FOLDER_LABEL_Y = 0;
+#define FOLDER_LABEL_COLOR 93, 123, 142, 0
+
+const float SYMBOL_PER_PIX_HORIZ = WINDOW_WIDTH/90; //на самом деле pix_per_symbol_horis
+
+#define ACTION_DOC_COLOR 130, 0, 141, 100
+#define ACTION_DOC_BUTTONS_COLOR 71, 142, 141, 0
+
+const int DIALOG_WINDOW_INNER_OFFSET = 5;
+const int TEXT_HEIGHT = 24;
+#define DIALOG_WINDOW_BACKGROUND_COLOR 186, 185, 188, 0
+
+
+#endif // CONSTANTS_H_INCLUDED
